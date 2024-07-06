@@ -1,0 +1,26 @@
+A JSON Rest Api
+
+GET /users - HTML Document render
+GET /api/users - List users in JSON
+
+
+GET /api/users/1 - List user with id1
+GET /api/users/2 - List user with id 2
+Dynamic Path Parameters
+GET /api/users/:id
+:id -> Variable | Dynamic
+
+
+POST /api/users - Create new user
+
+PATCH /api/users/id - Edit user with id 1
+
+DELETE /api/users/2 - Delete user with id 2
+
+
+
+WORKING of Mongoose
+
+Schema - Define structure
+    SChema - Model
+    Use model to perform CRUD operations
